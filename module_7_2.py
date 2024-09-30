@@ -6,6 +6,7 @@ def custom_write(fname,str_):
     for _str_ in str_:
         dict_[i,out_stream.tell()] = _str_
         out_stream.write(_str_ + '\n')
+        i += 1
     out_stream.close()
     return dict_
 
