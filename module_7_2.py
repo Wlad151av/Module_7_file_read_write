@@ -1,6 +1,6 @@
 
 def custom_write(fname,str_):
-    out_stream = open(fname,'w')
+    out_stream = open(fname,'w',encoding = 'utf-8')
     i = 1
     dict_ = {}
     for _str_ in str_:
